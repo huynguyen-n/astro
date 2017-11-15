@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002D00C41FBB3AE4001BC804 /* AstroCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002D00BA1FBB3AE3001BC804 /* AstroCore.framework */; };
+		002D00C91FBB3AE4001BC804 /* AstroCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D00C81FBB3AE4001BC804 /* AstroCoreTests.swift */; };
+		002D00CB1FBB3AE4001BC804 /* AstroCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 002D00BD1FBB3AE3001BC804 /* AstroCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		002D00F71FBB3FA8001BC804 /* Request+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D00F61FBB3FA8001BC804 /* Request+Alamofire.swift */; };
+		002D00F91FBB3FB1001BC804 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D00F81FBB3FB1001BC804 /* Constants.swift */; };
+		002D00FB1FBB3FBE001BC804 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D00FA1FBB3FBE001BC804 /* BaseModel.swift */; };
+		002D01021FBB4037001BC804 /* AstroChannelListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D01011FBB4037001BC804 /* AstroChannelListRequest.swift */; };
+		002D01041FBB525C001BC804 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D01031FBB525C001BC804 /* Parameter.swift */; };
+		002D01061FBB5306001BC804 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D01051FBB5306001BC804 /* Request.swift */; };
+		002D01081FBB57E1001BC804 /* Request+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D01071FBB57E1001BC804 /* Request+Default.swift */; };
+		002D010A1FBB57EC001BC804 /* Request+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D01091FBB57EC001BC804 /* Request+Error.swift */; };
+		002D010D1FBB5D29001BC804 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D010C1FBB5D29001BC804 /* Logger.swift */; };
+		002D010F1FBB5D37001BC804 /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D010E1FBB5D37001BC804 /* NSError.swift */; };
+		B5FCFEABA553423157580FA9 /* Pods_AstroCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDBB9ECAD8D5E987EFDA965 /* Pods_AstroCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002D00C51FBB3AE4001BC804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002D00B11FBB3AE3001BC804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002D00B91FBB3AE3001BC804;
+			remoteInfo = AstroCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002D00BA1FBB3AE3001BC804 /* AstroCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AstroCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		002D00BD1FBB3AE3001BC804 /* AstroCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstroCore.h; sourceTree = "<group>"; };
+		002D00BE1FBB3AE3001BC804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002D00C31FBB3AE4001BC804 /* AstroCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		002D00C81FBB3AE4001BC804 /* AstroCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroCoreTests.swift; sourceTree = "<group>"; };
+		002D00CA1FBB3AE4001BC804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002D00F61FBB3FA8001BC804 /* Request+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Request+Alamofire.swift"; sourceTree = "<group>"; };
+		002D00F81FBB3FB1001BC804 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		002D00FA1FBB3FBE001BC804 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		002D01011FBB4037001BC804 /* AstroChannelListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroChannelListRequest.swift; sourceTree = "<group>"; };
+		002D01031FBB525C001BC804 /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		002D01051FBB5306001BC804 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		002D01071FBB57E1001BC804 /* Request+Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Request+Default.swift"; sourceTree = "<group>"; };
+		002D01091FBB57EC001BC804 /* Request+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Request+Error.swift"; sourceTree = "<group>"; };
+		002D010C1FBB5D29001BC804 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		002D010E1FBB5D37001BC804 /* NSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSError.swift; sourceTree = "<group>"; };
+		02FA4E71FA1A7B2BB4FDA48C /* Pods-AstroCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstroCore.release.xcconfig"; path = "../Pods/Target Support Files/Pods-AstroCore/Pods-AstroCore.release.xcconfig"; sourceTree = "<group>"; };
+		1EDBB9ECAD8D5E987EFDA965 /* Pods_AstroCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstroCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEBBDD0391B245D04C7F91B /* Pods-AstroCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstroCore.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-AstroCore/Pods-AstroCore.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002D00B61FBB3AE3001BC804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FCFEABA553423157580FA9 /* Pods_AstroCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002D00C01FBB3AE4001BC804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002D00C41FBB3AE4001BC804 /* AstroCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002D00B01FBB3AE3001BC804 = {
+			isa = PBXGroup;
+			children = (
+				002D00BC1FBB3AE3001BC804 /* AstroCore */,
+				002D00C71FBB3AE4001BC804 /* AstroCoreTests */,
+				002D00BB1FBB3AE3001BC804 /* Products */,
+				AF5662C247226AC759687AE3 /* Pods */,
+				780BB3B386D10698BD35BE1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		002D00BB1FBB3AE3001BC804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002D00BA1FBB3AE3001BC804 /* AstroCore.framework */,
+				002D00C31FBB3AE4001BC804 /* AstroCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		002D00BC1FBB3AE3001BC804 /* AstroCore */ = {
+			isa = PBXGroup;
+			children = (
+				002D00F21FBB3F55001BC804 /* Resource */,
+				002D00F41FBB3F7E001BC804 /* Sources */,
+			);
+			path = AstroCore;
+			sourceTree = "<group>";
+		};
+		002D00C71FBB3AE4001BC804 /* AstroCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				002D00C81FBB3AE4001BC804 /* AstroCoreTests.swift */,
+				002D00CA1FBB3AE4001BC804 /* Info.plist */,
+			);
+			path = AstroCoreTests;
+			sourceTree = "<group>";
+		};
+		002D00F21FBB3F55001BC804 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				002D00BD1FBB3AE3001BC804 /* AstroCore.h */,
+				002D00BE1FBB3AE3001BC804 /* Info.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		002D00F41FBB3F7E001BC804 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				002D010B1FBB5D15001BC804 /* Helper */,
+				002D00FD1FBB3FDB001BC804 /* Network */,
+				002D00FE1FBB3FE3001BC804 /* Models */,
+				002D00FF1FBB3FF0001BC804 /* View Models */,
+				002D00F81FBB3FB1001BC804 /* Constants.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		002D00FD1FBB3FDB001BC804 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				002D01001FBB400F001BC804 /* Protocols */,
+				002D01011FBB4037001BC804 /* AstroChannelListRequest.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		002D00FE1FBB3FE3001BC804 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				002D00FA1FBB3FBE001BC804 /* BaseModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		002D00FF1FBB3FF0001BC804 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Models";
+			sourceTree = "<group>";
+		};
+		002D01001FBB400F001BC804 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				002D01031FBB525C001BC804 /* Parameter.swift */,
+				002D01051FBB5306001BC804 /* Request.swift */,
+				002D00F61FBB3FA8001BC804 /* Request+Alamofire.swift */,
+				002D01071FBB57E1001BC804 /* Request+Default.swift */,
+				002D01091FBB57EC001BC804 /* Request+Error.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		002D010B1FBB5D15001BC804 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				002D010C1FBB5D29001BC804 /* Logger.swift */,
+				002D010E1FBB5D37001BC804 /* NSError.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		780BB3B386D10698BD35BE1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EDBB9ECAD8D5E987EFDA965 /* Pods_AstroCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF5662C247226AC759687AE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEEBBDD0391B245D04C7F91B /* Pods-AstroCore.debug.xcconfig */,
+				02FA4E71FA1A7B2BB4FDA48C /* Pods-AstroCore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		002D00B71FBB3AE3001BC804 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002D00CB1FBB3AE4001BC804 /* AstroCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		002D00B91FBB3AE3001BC804 /* AstroCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002D00CE1FBB3AE4001BC804 /* Build configuration list for PBXNativeTarget "AstroCore" */;
+			buildPhases = (
+				D444E92FC0C628AF0259FE97 /* [CP] Check Pods Manifest.lock */,
+				002D00B51FBB3AE3001BC804 /* Sources */,
+				002D00B61FBB3AE3001BC804 /* Frameworks */,
+				002D00B71FBB3AE3001BC804 /* Headers */,
+				002D00B81FBB3AE3001BC804 /* Resources */,
+				5E3D4A899330803541D5E82D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroCore;
+			productName = AstroCore;
+			productReference = 002D00BA1FBB3AE3001BC804 /* AstroCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		002D00C21FBB3AE4001BC804 /* AstroCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002D00D11FBB3AE4001BC804 /* Build configuration list for PBXNativeTarget "AstroCoreTests" */;
+			buildPhases = (
+				002D00BF1FBB3AE4001BC804 /* Sources */,
+				002D00C01FBB3AE4001BC804 /* Frameworks */,
+				002D00C11FBB3AE4001BC804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002D00C61FBB3AE4001BC804 /* PBXTargetDependency */,
+			);
+			name = AstroCoreTests;
+			productName = AstroCoreTests;
+			productReference = 002D00C31FBB3AE4001BC804 /* AstroCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002D00B11FBB3AE3001BC804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Huy Nguyen";
+				TargetAttributes = {
+					002D00B91FBB3AE3001BC804 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					002D00C21FBB3AE4001BC804 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 002D00B41FBB3AE3001BC804 /* Build configuration list for PBXProject "AstroCore" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 002D00B01FBB3AE3001BC804;
+			productRefGroup = 002D00BB1FBB3AE3001BC804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002D00B91FBB3AE3001BC804 /* AstroCore */,
+				002D00C21FBB3AE4001BC804 /* AstroCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		002D00B81FBB3AE3001BC804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002D00C11FBB3AE4001BC804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E3D4A899330803541D5E82D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-AstroCore/Pods-AstroCore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D444E92FC0C628AF0259FE97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002D00B51FBB3AE3001BC804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002D01081FBB57E1001BC804 /* Request+Default.swift in Sources */,
+				002D01041FBB525C001BC804 /* Parameter.swift in Sources */,
+				002D01061FBB5306001BC804 /* Request.swift in Sources */,
+				002D00FB1FBB3FBE001BC804 /* BaseModel.swift in Sources */,
+				002D010D1FBB5D29001BC804 /* Logger.swift in Sources */,
+				002D010A1FBB57EC001BC804 /* Request+Error.swift in Sources */,
+				002D00F71FBB3FA8001BC804 /* Request+Alamofire.swift in Sources */,
+				002D00F91FBB3FB1001BC804 /* Constants.swift in Sources */,
+				002D01021FBB4037001BC804 /* AstroChannelListRequest.swift in Sources */,
+				002D010F1FBB5D37001BC804 /* NSError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002D00BF1FBB3AE4001BC804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002D00C91FBB3AE4001BC804 /* AstroCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002D00C61FBB3AE4001BC804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002D00B91FBB3AE3001BC804 /* AstroCore */;
+			targetProxy = 002D00C51FBB3AE4001BC804 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		002D00CC1FBB3AE4001BC804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		002D00CD1FBB3AE4001BC804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		002D00CF1FBB3AE4001BC804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEEBBDD0391B245D04C7F91B /* Pods-AstroCore.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8TP5543C2X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AstroCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mStage.AstroCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		002D00D01FBB3AE4001BC804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FA4E71FA1A7B2BB4FDA48C /* Pods-AstroCore.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8TP5543C2X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AstroCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mStage.AstroCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		002D00D21FBB3AE4001BC804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TP5543C2X;
+				INFOPLIST_FILE = AstroCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mStage.AstroCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		002D00D31FBB3AE4001BC804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TP5543C2X;
+				INFOPLIST_FILE = AstroCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mStage.AstroCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002D00B41FBB3AE3001BC804 /* Build configuration list for PBXProject "AstroCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002D00CC1FBB3AE4001BC804 /* Debug */,
+				002D00CD1FBB3AE4001BC804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002D00CE1FBB3AE4001BC804 /* Build configuration list for PBXNativeTarget "AstroCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002D00CF1FBB3AE4001BC804 /* Debug */,
+				002D00D01FBB3AE4001BC804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002D00D11FBB3AE4001BC804 /* Build configuration list for PBXNativeTarget "AstroCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002D00D21FBB3AE4001BC804 /* Debug */,
+				002D00D31FBB3AE4001BC804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002D00B11FBB3AE3001BC804 /* Project object */;
+}
